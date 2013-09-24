@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5C1D043D-F75E-4CC4-AE78-8C0A3FAF8A96</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BMITime</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>04DB2863-63C0-4E5E-AACD-9BEEAE13AD57</key>
+		<string>https://github.com/jeffyuhaoliu/Big-Nerd-Ranch---iOS-Instructor-Code.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>24 - Collection Classes/BMITime/BMITime.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>04DB2863-63C0-4E5E-AACD-9BEEAE13AD57</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jeffyuhaoliu/Big-Nerd-Ranch---iOS-Instructor-Code.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>04DB2863-63C0-4E5E-AACD-9BEEAE13AD57</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>04DB2863-63C0-4E5E-AACD-9BEEAE13AD57</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Big-Nerd-Ranch---iOS-Instructor-Code</string>
+		</dict>
+	</array>
+</dict>
+</plist>

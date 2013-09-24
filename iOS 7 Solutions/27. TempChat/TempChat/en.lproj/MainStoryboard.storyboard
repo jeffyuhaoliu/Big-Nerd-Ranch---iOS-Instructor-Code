@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2844" systemVersion="12C60" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1930"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="BNRViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="127.0.0.1" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fro-pG-cHL">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" type="user" id="zC7-lR-4pI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ws9-1c-Js2">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="84" id="ZQB-EK-ipM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Connect">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="connect:" destination="2" eventType="touchUpInside" id="XVQ-Xs-Yaz"/>
+                                </connections>
+                            </button>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="0Np-XV-UYh">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" type="user" id="pqh-ub-IIb"/>
+                                    <constraint firstAttribute="width" constant="276" id="u10-NG-Ktj"/>
+                                </constraints>
+                            </slider>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="ujK-vQ-iqr">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="2" id="VoI-KU-Bml"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="ujK-vQ-iqr" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="10X-8o-1tL"/>
+                            <constraint firstItem="ujK-vQ-iqr" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="BDp-4g-lmq"/>
+                            <constraint firstAttribute="trailing" secondItem="ujK-vQ-iqr" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="Eue-oV-OSv"/>
+                            <constraint firstItem="fro-pG-cHL" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="LHe-5K-lpe"/>
+                            <constraint firstItem="ujK-vQ-iqr" firstAttribute="top" secondItem="0Np-XV-UYh" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="N6d-bT-BAy"/>
+                            <constraint firstAttribute="trailing" secondItem="ws9-1c-Js2" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="QQ9-wA-sjN"/>
+                            <constraint firstItem="fro-pG-cHL" firstAttribute="top" secondItem="3" secondAttribute="top" constant="20" symbolic="YES" type="default" id="Rcw-Wr-TDG"/>
+                            <constraint firstItem="ujK-vQ-iqr" firstAttribute="centerX" secondItem="0Np-XV-UYh" secondAttribute="centerX" type="default" id="WDT-7P-mA1"/>
+                            <constraint firstItem="0Np-XV-UYh" firstAttribute="top" secondItem="fro-pG-cHL" secondAttribute="bottom" constant="8" symbolic="YES" type="user" id="abm-Xd-LzC"/>
+                            <constraint firstItem="0Np-XV-UYh" firstAttribute="top" secondItem="ws9-1c-Js2" secondAttribute="bottom" constant="8" symbolic="YES" type="user" id="ccQ-F0-UUz"/>
+                            <constraint firstItem="ws9-1c-Js2" firstAttribute="top" secondItem="3" secondAttribute="top" constant="21" type="user" id="i0W-29-fjQ"/>
+                            <constraint firstItem="ws9-1c-Js2" firstAttribute="leading" secondItem="fro-pG-cHL" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="j6M-0u-qlW"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="messageTable" destination="ujK-vQ-iqr" id="TPI-QW-5xQ"/>
+                        <outlet property="serverAddressField" destination="fro-pG-cHL" id="gcq-dy-ywu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="BNRViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/BNRViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="connect:"/>
+                <relationship kind="outlet" name="messageTable" candidateClass="UITableView"/>
+                <relationship kind="outlet" name="serverAddressField" candidateClass="UITextField"/>
+            </relationships>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

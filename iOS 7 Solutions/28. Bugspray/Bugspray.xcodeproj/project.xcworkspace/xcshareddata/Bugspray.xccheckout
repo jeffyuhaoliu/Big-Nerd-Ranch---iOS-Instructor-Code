@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BAA3BD43-9013-49B8-A35F-C2138C734C2B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Bugspray</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>11EFFD84-DB79-4692-A054-28461AAF373B</key>
+		<string>https://svn.bignerdranch.com/svn/bnr/ios2/trunk/LLDB/Bugspray</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Bugspray.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>11EFFD84-DB79-4692-A054-28461AAF373B</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>11EFFD84-DB79-4692-A054-28461AAF373B</key>
+		<string>https://svn.bignerdranch.com/svn/bnr</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://svn.bignerdranch.com/svn/bnr/ios2/trunk/LLDB/Bugspray/Bugspray.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>11EFFD84-DB79-4692-A054-28461AAF373B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>11EFFD84-DB79-4692-A054-28461AAF373B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>28</string>
+		</dict>
+	</array>
+</dict>
+</plist>

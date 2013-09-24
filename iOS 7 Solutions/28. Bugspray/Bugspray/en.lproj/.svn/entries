@@ -1,0 +1,42 @@
+10
+
+dir
+0
+https://ward@svn.bignerdranch.com/svn/bnr/ios2/trunk/LLDB/Bugspray/Bugspray/en.lproj
+https://ward@svn.bignerdranch.com/svn/bnr
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+07496c72-7ce1-0310-94bc-e875d069793a
+
+InfoPlist.strings
+file
+
+
+
+add
+
+BNRViewController.xib
+file
+
+
+
+add
+
